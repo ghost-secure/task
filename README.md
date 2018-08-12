@@ -5,13 +5,15 @@
 
 Ответ: https://www.db-fiddle.com/f/5mxBSCqon8nhW8GB1BcEoj/1
 
+
 -------------------------------------------------------------------------------------------------------
 
-Задание 2: 
+Задание 2:
 Задание: Реализовать счетчик вызова скрипта. Было принято решение, хранить данные в файле.
+<pre>
 <?php 
 file_put_contents("./counter.txt", file_get_contents("./counter.txt") + 1);
-?>
+</pre>
 Вопрос: Какие проблемы имеет данные подход? Как вы их можете решить? 
 (Нельзя использовать другие технологии)
 Дополнительный вопрос: Через некоторое время нагрузка на сервер значительно выросла. Какие проблемы вы видите? Как вы их можете решить? 
@@ -65,7 +67,6 @@ class DataProvider
         // returns a response from external service
     }
 }
-?>
 <?php
 
 namespace src\Decorator;
@@ -160,5 +161,6 @@ FROM | TO
 9       | 12
 Решение должно быть представлено в виде ссылки на https://www.db-fiddle.com/.
 
-Ответ: https://www.db-fiddle.com/f/2P3xwx62YQ5VHCdMGWYynK/0
+Ответ:  https://www.db-fiddle.com/f/2P3xwx62YQ5VHCdMGWYynK/0
+
 
